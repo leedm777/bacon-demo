@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9706628-92ed-4184-81ec-7c664433c38e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/coffee/bacon-counter.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/bacon-counter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/coffee/bacon-sum.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/bacon-sum.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/coffee/jquery-sum.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/jquery-sum.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/coffee/clicker.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/Boot.scala" afterPath="$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/Boot.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/bacon-counter.html" afterPath="$PROJECT_DIR$/src/main/webapp/bacon-counter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/coffee/bacon-sum.coffee" afterPath="$PROJECT_DIR$/src/main/coffee/bacon-sum.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/bacon-sum.html" afterPath="$PROJECT_DIR$/src/main/webapp/bacon-sum.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/less/demo.less" afterPath="$PROJECT_DIR$/src/main/less/demo.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jquery-sum.html" afterPath="$PROJECT_DIR$/src/main/webapp/jquery-sum.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bacon-demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,14 +21,17 @@
     <file path="/default.props" changelist="c9706628-92ed-4184-81ec-7c664433c38e" time="1375758040557" ignored="false" />
     <file path="/demo.coffee" changelist="c9706628-92ed-4184-81ec-7c664433c38e" time="1375758771302" ignored="false" />
     <file path="/bacon-counter.coffee" changelist="c9706628-92ed-4184-81ec-7c664433c38e" time="1375762617564" ignored="false" />
-    <file path="/Boot.scala" changelist="c9706628-92ed-4184-81ec-7c664433c38e" time="1375763221239" ignored="false" />
+    <file path="/Boot.scala" changelist="c9706628-92ed-4184-81ec-7c664433c38e" time="1375765474494" ignored="false" />
     <file path="/bacon-counter.html" changelist="c9706628-92ed-4184-81ec-7c664433c38e" time="1375760546139" ignored="false" />
     <file path="/foo.litcoffee" changelist="c9706628-92ed-4184-81ec-7c664433c38e" time="1375762368912" ignored="false" />
     <file path="/jquery-counter.coffee" changelist="c9706628-92ed-4184-81ec-7c664433c38e" time="1375762812403" ignored="false" />
     <file path="/jquery-sum.coffee" changelist="c9706628-92ed-4184-81ec-7c664433c38e" time="1375763435703" ignored="false" />
-    <file path="/bacon-sum.coffee" changelist="c9706628-92ed-4184-81ec-7c664433c38e" time="1375764767267" ignored="false" />
+    <file path="/bacon-sum.coffee" changelist="c9706628-92ed-4184-81ec-7c664433c38e" time="1375765403125" ignored="false" />
     <file path="/jquery-sum.html" changelist="c9706628-92ed-4184-81ec-7c664433c38e" time="1375764067288" ignored="false" />
     <file path="/bacon-sum.html" changelist="c9706628-92ed-4184-81ec-7c664433c38e" time="1375763047900" ignored="false" />
+    <file path="/clicker.html" changelist="c9706628-92ed-4184-81ec-7c664433c38e" time="1375798569620" ignored="false" />
+    <file path="/clicker.coffee" changelist="c9706628-92ed-4184-81ec-7c664433c38e" time="1375798731925" ignored="false" />
+    <file path="/demo.less" changelist="c9706628-92ed-4184-81ec-7c664433c38e" time="1375795103543" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +91,35 @@
     <favorites_list name="bacon-demo" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="clicker.coffee" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/coffee/clicker.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="95" column="20" selection-start="2515" selection-end="2515" vertical-scroll-proportion="0.80263156">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/less/demo.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clicker.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/clicker.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="36" selection-start="992" selection-end="992" vertical-scroll-proportion="-15.625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -110,21 +140,24 @@
         <option value="$PROJECT_DIR$/src/test/resources/logback-test.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/props/default.props" />
         <option value="$PROJECT_DIR$/src/main/coffee/demo.coffee" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/src/main/coffee/foo.litcoffee" />
         <option value="$PROJECT_DIR$/src/main/coffee/jquery-counter.coffee" />
         <option value="$PROJECT_DIR$/src/main/coffee/bacon-counter.coffee" />
-        <option value="$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/Boot.scala" />
         <option value="$PROJECT_DIR$/src/main/coffee/jquery-sum.coffee" />
+        <option value="$PROJECT_DIR$/src/main/coffee/bacon-sum.coffee" />
+        <option value="$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/Boot.scala" />
         <option value="$PROJECT_DIR$/src/main/webapp/bacon-counter.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/bacon-sum.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/jquery-sum.html" />
-        <option value="$PROJECT_DIR$/src/main/coffee/bacon-sum.coffee" />
+        <option value="$PROJECT_DIR$/src/main/less/demo.less" />
+        <option value="$PROJECT_DIR$/src/main/webapp/clicker.html" />
+        <option value="$PROJECT_DIR$/src/main/coffee/clicker.coffee" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="540" />
+    <option name="x" value="-14" />
     <option name="y" value="22" />
     <option name="width" value="1140" />
     <option name="height" value="832" />
@@ -188,32 +221,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bacon-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bacon-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -255,42 +262,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates-hidden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bacon-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bacon-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="scala" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Player.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -521,8 +494,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="540" y="22" width="1140" height="832" extended-state="0" />
-    <editor active="false" />
+    <frame x="-14" y="22" width="1140" height="832" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -537,7 +510,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24954297" sideWeight="0.67134833" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24954297" sideWeight="0.67134833" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286517" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -612,34 +585,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/leedm777/bacon/model/Player.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="7" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/Boot.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="35" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/coffee/jquery-counter.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="26" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/logback-test.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="24" selection-start="382" selection-end="382" vertical-scroll-proportion="0.15350877">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/props/default.props">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="68" selection-end="68" vertical-scroll-proportion="0.04385965">
@@ -668,27 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/coffee/bacon-counter.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="26" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="6" selection-start="554" selection-end="554" vertical-scroll-proportion="-8.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/Boot.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="5" selection-start="2050" selection-end="2050" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/coffee/jquery-sum.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="21" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
@@ -696,30 +620,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jquery-sum.html">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="614" selection-end="614" vertical-scroll-proportion="0.47727272">
+        <state line="1" column="0" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/bacon-sum.html">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/Boot.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="592" selection-end="592" vertical-scroll-proportion="0.4090909">
+        <state line="35" column="40" selection-start="1212" selection-end="1212" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/bacon-counter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="549" selection-end="549" vertical-scroll-proportion="0.32457495">
+        <state line="12" column="0" selection-start="432" selection-end="432" vertical-scroll-proportion="-7.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="377" selection-end="377" vertical-scroll-proportion="-6.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jquery-sum.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="424" selection-end="424" vertical-scroll-proportion="-9.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/coffee/bacon-counter.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="26" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/coffee/bacon-sum.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="85" selection-end="85" vertical-scroll-proportion="0.10964912">
+        <state line="26" column="34" selection-start="740" selection-end="740" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/bacon-sum.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="479" selection-end="479" vertical-scroll-proportion="-10.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/less/demo.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/clicker.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="36" selection-start="992" selection-end="992" vertical-scroll-proportion="-15.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/coffee/clicker.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="20" selection-start="2515" selection-end="2515" vertical-scroll-proportion="0.80263156">
           <folding />
         </state>
       </provider>

@@ -33,6 +33,7 @@ class Boot extends Loggable {
         Menu.i("Bacon counter") / "bacon-counter" ::
         Menu.i("jQuery sum") / "jquery-sum" ::
         Menu.i("Bacon sum") / "bacon-sum" ::
+        Menu.i("Clicker") / "clicker" ::
         Nil
 
     // set the sitemap.  Note if you don't want access control for

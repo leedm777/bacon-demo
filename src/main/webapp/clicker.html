@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
+    <title>Play</title>
+</head>
+<body class="lift:content_id=main">
+<div id="main" class="lift:surround?with=default;at=content">
+    <audio id="tone" src="click.mp3" type="audio/mpeg" preload="auto"></audio>
+
+    <form>
+        <fieldset>
+            <div class="row">
+                <label class="span2" for="bpm">Beats per minutes</label>
+                <input class="span2" id="bpm" type="text" value="60">
+            </div>
+            <div class="row">
+                <label class="span2" for="windowMillis">Accuracy (ms)</label>
+                <input class="span2" id="windowMillis" type="text" value="100">
+            </div>
+            <div class="row">
+                <label class="span2" for="off">Offset (ms)</label>
+                <input class="span2" id="off" type="text" readonly>
+            </div>
+            <div class="row">
+                <label class="span2">Score</label>
+                <input class="span1" id="green" type="text" readonly>
+                <input class="span1" id="yellow" type="text" readonly>
+                <input class="span1" id="red" type="text" readonly>
+            </div>
+        </fieldset>
+    </form>
+
+    <div class="row">
+        <canvas id="meter" class="span4"></canvas>
+    </div>
+
+
+    <script src="bacon-0.6.5/Bacon.min.js"></script>
+    <script src="bacon.ui-0.1.1/Bacon.UI.min.js"></script>
+    <script src='classpath/js/clicker.js'></script>
+</div>
+</body>
+</html>

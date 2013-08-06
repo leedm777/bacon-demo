@@ -24,8 +24,9 @@ b = $('#b').asEventStream('keyup')
 # Combine the two properties, applying the given function
 answer = a.combine(b, (a, b) -> a + b)
 
+# Assign that result on the screen
 answer.assign($('#answer'), 'val')
 
-a.onValue((a) -> console.log("a: #{a}"))
-b.onValue((b) -> console.log("b: #{b}"))
-answer.onValue((answer) -> console.log("answer: #{answer}"))
+#a.onValue((a) -> console.log("a: #{a}"))
+#b.onValue((b) -> console.log("b: #{b}"))
+#answer.onValue((answer) -> console.log("answer: #{answer}"))

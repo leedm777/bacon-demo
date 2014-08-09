@@ -13,6 +13,7 @@ a = $('#a').asEventStream('keyup')
   .filter(isNumber) # discard non-numbers
   .debounce(300) # debounce events by 300 millis
   .toProperty(0) # convert to property to get current value
+  .log('a')
 
 b = $('#b').asEventStream('keyup')
   .map(inputVal)
@@ -20,9 +21,11 @@ b = $('#b').asEventStream('keyup')
   .filter(isNumber)
   .debounce(300)
   .toProperty(0) # convert to property to get current value
+  .log('b')
 
 # Combine the two properties, applying the given function
 answer = a.combine(b, (a, b) -> a + b)
+  .log('answer')
 
 # Assign that result on the screen
 answer.assign($('#answer'), 'val')
